@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
+import streamlit as st
 
 from matplotlib.pyplot import figure
 
@@ -22,7 +23,7 @@ class AnalyticsData:
         plt.grid()
         plt.xticks(rotation=90)
         plt.show()
-        #plt.savefig(f'data/output_gtrends_f3.png')
+        # plt.savefig(f'data/output_gtrends_f3.png')
 
 
 if __name__ == "__main__":
@@ -35,3 +36,9 @@ if __name__ == "__main__":
     analytics.show(f1, 'GoogleTrends - filter 1 - Mundo (H1N1)')
     analytics.show(f2, 'GoogleTrends - filter 2 - Mundo (COVID)')
     analytics.show(f3, 'GoogleTrends - filter 3 - Italia (COVID)')
+
+    st.title('Track Covid-19')
+    st.markdown('## When everything may have started: Google')
+    st.image('data/output_gtrends_f1.png')
+    st.image('data/output_gtrends_f2.png')
+    st.image('data/output_gtrends_f3.png')

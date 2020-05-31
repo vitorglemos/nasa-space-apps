@@ -1,0 +1,4 @@
+opencv-python
+matplotlib
+flask
+flask_cors
