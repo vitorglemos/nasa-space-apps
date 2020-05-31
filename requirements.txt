@@ -1,2 +1,4 @@
 opencv-python
 matplotlib
+boto3
+flask
