@@ -22,10 +22,8 @@ class MapReview():
     
     def filters(self):
         self.gray = cv2.cvtColor(self.image, cv2.COLOR_BGR2GRAY)
-        #self.blurred = cv2.GaussianBlur(self.gray, (3, 3), 0)
-        self.canny = cv2.Canny(self.gray, 350, 500, 10)
-        plt.figure(figsize=(40, 40))
-        plt.imshow(self.canny)
+        self.blurred = cv2.GaussianBlur(self.gray, (3, 3), 0)
+        self.canny = cv2.Canny(self.blurred, 50, 200, 10)
         self.find_contours()
     
     def find_contours(self):
