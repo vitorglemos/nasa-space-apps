@@ -2,12 +2,14 @@
 
 # NASA Space Apps Challenge
 
-<center><img src="https://sa-2019.s3.amazonaws.com/154d29ac/images/covid.png" width="300" height="300"/></center>
+<img src="https://sa-2019.s3.amazonaws.com/154d29ac/images/covid.png" width="300" height="300">
+    
 # 1. Tracking the VIRUS
 
 The solution makes it possible to solve the pandemic mapping problem. Today, due to the large volume of data to analyze, it ends up being difficult to map each infection point manually. The solution allows to break this barrier, being focused on mapping the contamination on a broader scale. In a real scenario, it is important to detect outbreaks and also possible contaminants, also helping to test individuals. The project uses an algorithm written in python that applies filters to an image to highlight areas of contamination based on prior knowledge of a geographical point of contamination. Through this idea, we use machine learning in order to map areas at risk of contamination for consultation. One way to manage this data should be done in conjunction with society, in which, in Brazil, you can use the data from the SUS card to validate the addresses of patients who have discharged with symptoms of COVID-19 and at the end of the day update the map Of region.
 
 Project prototype: http://www.trackingthevirus.us/
+
 
 # 2. Identifying anomalies using Google Trends
 
@@ -60,10 +62,38 @@ In this case, we separate the case from Italy, here searches also have the same 
 
 For prediction, we used the SARIMAX model applied to the data available on [Google Trends](https://trends.google.com.br/) itself:
 
-<img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/nasa_proj2/google_predict/data/output_gtrends_f4.png?raw=true">
+<img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/nasa_proj2/google_predict/data/output_gtrends_f4.png?raw=true"/>
+
+# 3. Using lights to detect more populous and industrialized cities
+Satellite images taken from: https://worldwind.arc.nasa.gov/
+
+Here we use satellite data seen at night to compare more populous cities regarding covid infection, some of our comparisons can be seen below:
+
+## REGION 1
+<img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/nasa_proj2/visual_computing_map/population_industry_detect/data/output_0.jpg"/>
+
+## REGION 2
+<img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/nasa_proj2/visual_computing_map/population_industry_detect/data/output_1.jpg"/>
+
+## REGION 3
+<img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/nasa_proj2/visual_computing_map/population_industry_detect/data/output_2.jpg"/>
+
+<img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/data/covid1.png"/>
+
+## REGION 4
+<img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/nasa_proj2/visual_computing_map/population_industry_detect/data/output_3.jpg"/>
+
+<img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/data/covid3.png"/>
+
+## REGION 5
+<img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/nasa_proj2/visual_computing_map/population_industry_detect/data/output_4.jpg"/>
+
+<img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/data/covid4.png"/>
+
 
 ## References:
 
+[NASA DATA](https://worldwind.arc.nasa.gov/)
 [PREVISAO DA INFLAÇÃO USANDO SARIMAX](https://analisemacro.com.br/economia/inflacao/previsao-da-inflacao-com-um-modelo-sarimax/)
 
 [STATESPACE SARIMAX STATA](https://www.statsmodels.org/dev/examples/notebooks/generated/statespace_sarimax_stata.html)
