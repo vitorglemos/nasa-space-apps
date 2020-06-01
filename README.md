@@ -72,8 +72,12 @@ Here we use satellite data seen at night to compare more populous cities regardi
 ## REGION 1
 <img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/nasa_proj2/visual_computing_map/population_industry_detect/data/output_0.jpg"/>
 
+<img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/data/covid6.png"/>
+
 ## REGION 2
 <img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/nasa_proj2/visual_computing_map/population_industry_detect/data/output_1.jpg"/>
+
+<img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/data/covid2.png"/>
 
 ## REGION 3
 <img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/nasa_proj2/visual_computing_map/population_industry_detect/data/output_2.jpg"/>
