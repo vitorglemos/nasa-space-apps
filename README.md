@@ -2,11 +2,13 @@
 
 # NASA Space Apps Challenge
 
-<img src="https://sa-2019.s3.amazonaws.com/154d29ac/images/covid.png" width="300" height="300">
+<img src="https://sa-2019.s3.amazonaws.com/154d29ac/images/covid.png" width="300" height="300"/>
     
 # 1. Tracking the VIRUS
 
 The solution makes it possible to solve the pandemic mapping problem. Today, due to the large volume of data to analyze, it ends up being difficult to map each infection point manually. The solution allows to break this barrier, being focused on mapping the contamination on a broader scale. In a real scenario, it is important to detect outbreaks and also possible contaminants, also helping to test individuals. The project uses an algorithm written in python that applies filters to an image to highlight areas of contamination based on prior knowledge of a geographical point of contamination. Through this idea, we use machine learning in order to map areas at risk of contamination for consultation. One way to manage this data should be done in conjunction with society, in which, in Brazil, you can use the data from the SUS card to validate the addresses of patients who have discharged with symptoms of COVID-19 and at the end of the day update the map Of region.
+
+<img src="https://github.com/vitorglemos/Nasa_Space_apps/blob/master/data/intro.png"/>
 
 Project prototype: http://www.trackingthevirus.us/
 
