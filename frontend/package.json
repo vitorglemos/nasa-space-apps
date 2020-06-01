@@ -1,0 +1,14 @@
+{
+  "name": "nasa_space_apps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vitorglemos/Nasa_Space_apps",
+  "license": "MIT",
+  "scripts": {
+    "install": "cd flask && pip3 install -r requirements.txt && cd ../frontend && yarn",
+    "start": "concurrently --kill-others \"cd flask && python3 app.py\" \"cd frontend && yarn start\""
+  },
+  "dependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
