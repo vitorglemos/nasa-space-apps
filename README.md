@@ -2,7 +2,9 @@
 
 # NASA Space Apps Challenge
 
+<p align="center">
 <img src="https://sa-2019.s3.amazonaws.com/154d29ac/images/covid.png" width="300" height="300"/>
+</p>    
     
 # 1. Tracking the VIRUS
 
